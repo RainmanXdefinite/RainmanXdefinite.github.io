@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rainmans Cavern</title>
+  </head>
+  <body>
+    <h1>Rainmans Cavern</h1>
+    <label>This page is just a test, Im still developing this website</label>
+  </body>
+</html>
