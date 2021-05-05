@@ -1,1 +1,1 @@
-todo: arts that i want to show off go here
+todo: arts that i want to show off dont go here.
