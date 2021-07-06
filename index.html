@@ -1,29 +1,11 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="styles.css"> <!-- this did not work some time before -->
-    <script>
-      let mode = 'light'
-      function toggleDarkMode() {
-      if (mode === 'dark') {
-        document.body.style = 'background-color:white'
-        mode = 'light'
-        document.getElementById('switchable-modes').style = 'color:black'
-      } else {
-        document.body.style = 'background-color:black'
-        mode = 'dark'
-        document.getElementById('switchable-modes').style = 'color:white'
-      }
-}
-    </script>
     <title>Mona's cavern</title>
   </head>
   <body>
-    <button onclick="toggleDarkMode()">dark mode/light mode</button>
-    <div id="switchable-modes">
       <h1>welcome to the cavern</h1>
       hi! yay, the site is getting updated. below you can find my works of art i want to show off:<br>
       <a href="./arts/calculator/index.html">calculator</a> | more coming soon!<br>
-      fun fact, i actually incorporated dark mode into this! check it out!
-    </div>
   </body>
 </html>
