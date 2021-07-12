@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Text To HTML Web v0.2b</title>
+</head>
+<body>
+    <div class="navbar">
+        <button class="button" id="btabout" onclick="displayAbout()">About</button>
+    </div><br>
+    <div class="content">
+        <div class="verstr">web version 0.2 beta -- based off Text To HTML - CORE version v.1.8 -- style update 1</div>
+        <div class="editor">
+            <textarea id="input" class="input" cols="64" rows="38"></textarea>   
+            <button class="button" id="btcompile" onclick="compile()">Compile >></button>
+            <div class="declaration"></div>
+            <textarea id="title" class="title" cols="32" rows="1">Title</textarea> 
+            <textarea id="output" class="output" cols="64" rows="38"></textarea>
+        </div>
+    </div>
+</body>
+</html>

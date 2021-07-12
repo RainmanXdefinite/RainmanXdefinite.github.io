@@ -1,0 +1,77 @@
+.tab {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding: 5px;
+    background-color: rgb(153, 209, 255);
+    padding: 7px;
+    border: none;
+    color: black;
+    text-decoration: none;
+}
+
+.tab:hover {
+    background-color: rgb(206, 233, 255);
+}
+
+.button {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    padding: 7px;
+    background-color: rgb(153, 209, 255);
+    border: none;
+}
+
+.button:hover {
+    background-color: rgb(206, 233, 255);
+}
+
+body {
+    user-select: none;
+    color: #eee;
+    background-color: #333;
+    font-family: 'Microsoft Sans Serif', Arial, sans-serif;
+    font-size: 16px;
+    overflow: hidden;
+}
+
+.verstr {
+    font-size: 12px;
+}
+
+textarea {
+    resize: none;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    background-color: #444;
+    color: #eee;
+}
+
+#btcompile {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    position: relative;  
+    top: -34.7rem;
+    left: 3.3rem;
+}
+
+.declaration {
+    position: relative;
+    top: -33.7rem;
+    left: 29.5rem;
+}
+
+.output {
+    position: relative;
+    top: -36.7rem;
+    left: 33rem;
+}
+
+.title {
+    position: relative;
+    top: -68.3rem;
+    left: 30rem;
+}
